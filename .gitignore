@@ -1,0 +1,10 @@
+node_modules
+coverage
+dist
+.env
+cloud_sql_proxy
+service-account.json
+yarn-error.log
+fraud.rules.json
+.idea
+app.yaml
