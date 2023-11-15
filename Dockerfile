@@ -8,7 +8,7 @@ WORKDIR /usr/dist
 COPY package*.json ./
 
 # Install app dependencies
-RUN npm install --production
+RUN npm install 
 
 # Bundle app source
 COPY . .
